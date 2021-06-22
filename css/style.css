@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f0f0f0;
+    color: #555;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height:1.6em;
+    margin:0;
+}
+
+
+@media(max-width:600px) {
+    #main{
+        width: 100%;
+        float:none;
+    }
+    #sidebar{
+        width: 100%;
+        float:none;
+    }
+
+}

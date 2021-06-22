@@ -1,0 +1,179 @@
+/* -----------------------------------------------------------------------------------------------------------
+
+Skills 
+
+----------------------------------------------------------------------------------------------------------- */
+
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+}
+
+#skills h2 {
+    padding-left: 10%;
+    padding-top: 2%;
+    color: #ddd;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+#skills .skill-type {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    color: #ddd;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+#skills .skills-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#skills .skills-list {
+    list-style: none;
+    width: 75%;
+    
+}
+
+#skills .skill {
+    display: flex;
+    flex-direction: row;
+    margin: 2% 0;
+    color: #ddd;
+
+}
+
+#skills .skill-name {
+    width: 18%;
+}
+
+.progress-bar {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    width: 60%;
+    margin-left: 5%;
+}
+
+.progress-bar .bar {
+    background-color: #ddd;
+    height: 100%;
+}
+  
+.OrbitalMechanics { width: 85%; }
+.AttitudeDynamics { width: 80%; }
+.Controls { width: 60%; }
+
+#skills .sectional-tool-container {
+    display: flex;
+    width: 85%;
+    margin-left: 7.5%;
+    padding: 2%;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+#skills .tool-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2%;
+}
+
+#skills .tool-image {
+    display: flex;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+}
+
+#skills .tool-name {
+    margin-top: 8%;
+    font-size: 18px;
+    font-weight: 100;
+    color: #ddd;
+}
+
+/***********************************************************************************
+
+    Media Query
+
+***********************************************************************************/
+
+
+
+/***********************************************************************************
+
+    Images 
+
+***********************************************************************************/
+
+#skills .matlab {
+    background: url('../images/Matlab_Logo.png') no-repeat center center;
+    background-size: contain;
+    transform: scale(1.1);
+}
+
+#skills .python {
+    background: url('../images/PythonLogo.png') no-repeat center center;
+    background-size: cover;
+}
+
+#skills .cpp {
+    background: url('../images/CppIcon.png') no-repeat center center;
+    background-size: contain;
+}
+
+#skills .ruby {
+    background: url('../images/RubyIcon.png') no-repeat center center;
+    background-size: cover;
+}
+
+#skills .bash {
+    transform: scale(1.5);
+    background: url('../images/BashIcon.png') no-repeat center center;
+    background-size: cover;
+}
+
+#skills .linux {
+    background: url('../images/LinuxLogo.png') no-repeat center center;
+    background-size: cover;
+}
+
+#skills .git {
+    background: url('../images/GitIcon.png') no-repeat center center;
+    background-size: cover;
+}
+
+#skills .office {
+    background: url('../images/Office_logo.png') no-repeat center center;
+    background-size: cover;
+}
+
+#skills .stk {
+    background: url('../images/stk-icon.png') no-repeat center center;
+    background-size: cover;
+}
+
+#skills .css {
+    background: url('../images/CSS3_logo_and_wordmark.svg') no-repeat center center;
+    background-size: contain;
+}
+
+#skills .html {
+    background: url('../images/HTMLLogo.png') no-repeat center center;
+    background-size: cover;
+}
+
+#skills .javascript {
+    background: url('../images/JsLogo.png') no-repeat center center;
+    background-size: cover;
+    transform: scale(.9);
+}
+

@@ -1,0 +1,167 @@
+
+/* 
+    Main Body 
+*/
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.headshot-and-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin:auto;
+    overflow: hidden;
+    font-weight: 200;
+
+}
+
+.headshot-wrapper{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 5% 0;
+}
+
+.headshot{
+    margin-left: 0%;
+    height: auto;
+    width: 100%;
+}
+
+.intro-description-title-container {
+    font-size: 30px;
+}
+
+.some-padding {
+    margin: 1.5%;
+}
+
+#sidebar{
+    box-sizing: border-box;
+    font-size: 18px;
+    width: 60%;
+    color:#333;
+    padding: 10px;
+}
+
+/************************************************************************************* 
+    Homepage Background links 
+*************************************************************************************/
+
+.LinkContainer {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 3% 0;
+}
+
+.PageLinks {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    
+    width: 80%;
+    height: 100%;
+
+}
+
+.BackgroundContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+    margin-bottom: 3%;
+}
+
+.img {
+    box-sizing: border-box;
+    box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+    
+}
+
+.PageLinkTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 100%;
+    
+    font-size: 18px;
+    color: #333;
+}
+
+.PageLinkTextContainer .BackgroundSubject {
+    font-size: 30px;
+    margin-top: 10%;
+    font-weight: 300;
+}
+
+.PageLinkTextContainer .BackgroundDescription {
+    font-weight: 100;
+    margin-top: 10%;
+    color: #555;
+}
+
+.PageLinkTextContainer p {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    height: 20%;
+    transition:.4s all;
+
+    margin-top: 10%;
+}
+
+
+.software{
+    background: url("../images/computerChip.jpg") no-repeat center center;
+    background-size: cover;
+    margin-left: 15%;
+}
+
+.space {
+    background: url('../images/U49nFhh-space-shuttle-desktop-wallpaper.jpg') no-repeat center center;
+    background-size: cover;
+    margin-right: 15%;
+}
+
+
+@media screen and (min-width: 800px) {
+    .LinkContainer{
+      height: 1000px; 
+    }
+    
+    .img{
+      height: 100%;  
+      width: 50%;
+    }
+
+    .PageLinkTextContainer {
+        width: 50%;
+    }
+
+
+    .PageLinks{
+        flex-wrap: wrap; 
+        overflow: visible;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .PageLinks{
+      flex-wrap: wrap; 
+    }
+}

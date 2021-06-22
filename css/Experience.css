@@ -1,0 +1,122 @@
+/* -----------------------------------------------------------------------------------------------------------
+
+Experience 
+
+----------------------------------------------------------------------------------------------------------- */
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#experience h2 {
+    padding-left: 10%;
+    padding-top: 2%;
+    color: #333;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+#experience .experiences {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#experience .exp-wrapper {
+    display: flex;
+    height: 210px;
+    width: 75%;
+    margin: 1% 0;
+    padding: 1%;
+    background-color: white;
+    box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+    align-items: center;
+    
+}
+
+#experience .job-logo {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    margin: 5px;
+}
+
+#experience .vert-bar {
+    border-left: 2px solid #555;
+    margin-left: 1%;
+    height: 100%;
+}
+
+#experience .job-description {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 2%;
+    width: 80%;
+}
+
+#experience .header-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#experience .job-header {
+    display: flex;
+    flex-direction: column;
+    width:60%;
+}
+
+#experience .dates {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    color: #aaa;
+    width: 35%;
+}
+
+#experience .company {
+    font-size: 24px;
+}
+
+#experience .position {
+    margin-top: 2px;
+    
+}
+
+#experience .responsibilities {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    color: #999;
+    width: 85%;
+}
+
+#experience .ball-aerospace .job-logo {
+    background: url('../images/BallLogo2.png') no-repeat center center;
+    background-size: cover;
+}
+
+#experience .OSR .job-logo {
+    background: url('../images/OdysseyLogo.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+#experience .TREL .job-logo {
+    background: url('../images/TrelLogo.png') no-repeat center center;
+    background-size: cover;
+}
+
+#experience .ARL .job-logo {
+    background: url('../images/ARLLogo.png') no-repeat center center;
+    background-size: contain;
+}
+
+#experience .Guadaloop .job-logo {
+    background: url('../images/GuadaloopLogo.png') no-repeat center center;
+    background-size: contain;
+}
